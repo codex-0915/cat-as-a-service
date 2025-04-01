@@ -1,9 +1,15 @@
 require 'sinatra'
+require "sinatra/reloader" if development?
 require 'json'
 require 'net/http'
 require 'uri'
 
-# Caas Functions
+# CaaS Settings
+set :port, ENV.fetch('PORT', 3000)
+set :bind, '0.0.0.0'
+
+
+# CaaS Functions
 
 # ASCII Cat Logo
 def ascii_cat_logo
