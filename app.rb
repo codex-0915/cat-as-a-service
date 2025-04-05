@@ -36,7 +36,7 @@ end
   
 # Random meow sounds
 MEOW_SOUNDS = [
-    "Meow! 🐱", "Mrrrow! 😺", "Purr... 💤", "Mew! 😻", "Meeeow! 🐱"
+    "Meow! 🐱", "Mrrrow! 😺", "Purr... 💤", "Mew! 😻", "Meeeow! 🐱", "Hisss! 😾"
 ]
 
   
