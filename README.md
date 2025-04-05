@@ -1,6 +1,6 @@
 # Cat-as-a-Service (CaaS) Docker Image
 
-This Docker image provides a simple web service called "Cat-as-a-Service" (CaaS) powered by Ruby and Sinatra. It offers several cat-related endpoints for fun and entertainment.
+This repository provides a Docker image for "Cat-as-a-Service" (CaaS), a fun web service powered by Ruby and Sinatra. It offers several cat-related endpoints for fun and entertainment. You can find the Docker image at [Docker Hub](https://hub.docker.com/r/codex0915/cat-as-a-service).
 
 ## Features
 
@@ -41,4 +41,12 @@ This Docker image provides a simple web service called "Cat-as-a-Service" (CaaS)
    - Use `curl http://localhost:3000/meow` for a random cat meow sound.
 
 Enjoy your Cat-as-a-Service experience! 🐱
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to open an issue or contact the repository maintainers.
 
